@@ -1,0 +1,19 @@
+portal:
+  format: gpkg
+  output_dir: data/raw
+  layers:
+    - zones inondables
+    - districts électoraux
+
+worldcover:
+  drive_url: "https://drive.google.com/file/d/1Hwhn-PwDIRZrsU4q27dAWX3ITz3MS0b3/view?usp=sharing"
+  output_dir: data/raw
+
+processing:
+  input_dir: data/raw
+  output_dir: data/processed
+
+analysis:
+  arrondissement: "Arrondissement des Nations"
+  epsg: 32187  # MTM zone 7 – projection officielle du Québec
+  flood_buffer_m: 50

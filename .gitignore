@@ -1,0 +1,25 @@
+# Données — ignorées, répertoires conservés via .gitkeep
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environnements Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs et sorties (à ajuster selon vos choix d'implémentation)
+*.log
