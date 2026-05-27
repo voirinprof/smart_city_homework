@@ -10,24 +10,21 @@ Trois modules de départ vous sont fournis — `src/downloader.py`, `src/ingest.
 
 ## Mise en place du dépôt
 
-Avant de commencer, vous devez configurer votre propre dépôt privé à partir du dépôt fourni.
+Avant de commencer, vous devez créer votre propre dépôt privé à partir du dépôt du cours. Ce dépôt est configuré comme **template** : vous n'avez pas à forker ni à manipuler git manuellement.
 
-### Étape 1 — Forker le projet
+### Étape 1 — Créer votre dépôt depuis le template
 
-Sur GitHub, cliquez sur le bouton **Fork** en haut à droite du dépôt du cours pour créer votre propre copie.
+1. Accédez au dépôt du cours sur GitHub
+2. Cliquez sur le bouton **Use this template** → **Create a new repository**
+3. Choisissez un nom pour votre dépôt (ex. `gmq580-td1-prenom-nom`)
+4. Sélectionnez **Private**
+5. Cliquez sur **Create repository**
 
-### Étape 2 — Rendre le fork privé
-
-Par défaut, un fork hérite de la visibilité du dépôt d'origine. Vous devez **impérativement rendre votre fork privé** :
-
-1. Accédez à votre fork sur GitHub
-2. Ouvrez **Settings** (onglet en haut à droite)
-3. Faites défiler jusqu'à la section **Danger Zone**
-4. Cliquez sur **Change repository visibility** → **Make private**
+Vous disposez maintenant de votre propre copie privée, indépendante du dépôt d'origine.
 
 > **Important** : un dépôt public permet à d'autres étudiants de copier votre travail. Tout dépôt public au moment de la correction entraînera une note de zéro.
 
-### Étape 3 — Inviter le professeur
+### Étape 2 — Inviter le professeur
 
 Pour que le professeur puisse corriger votre travail, vous devez lui donner accès à votre dépôt privé :
 
@@ -123,6 +120,8 @@ matplotlib>=3.9
 ```
 
 > **Note** : sur Windows, l'installation de GeoPandas et Rasterio via pip peut nécessiter des étapes supplémentaires (GDAL, Fiona). Préférez l'option Conda dans ce cas.
+
+> **Important** : Les bibliothèques listées ci-dessus sont suffisantes pour réaliser l'ensemble du travail. Toute dépendance supplémentaire doit être approuvée par le professeur avant d'être ajoutée.
 
 ---
 
