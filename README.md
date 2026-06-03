@@ -123,6 +123,14 @@ matplotlib>=3.9
 
 > **Important** : Les bibliothèques listées ci-dessus sont suffisantes pour réaliser l'ensemble du travail. Toute dépendance supplémentaire doit être approuvée par le professeur avant d'être ajoutée.
 
+> Il peut arriver sous Windows que la lib rasterio soit mal installée
+> Vous allez avoir une erreur avec le DLL (comme *ImportError: DLL load failed while importing _rasterio: The specified module could not be found.*)
+> Vous pouvez essayer ces 2 options :
+```bash
+conda install -c conda-forge rasterio
+# ou
+pip install --force-reinstall rasterio
+```
 ---
 
 ## Prise en main des modules fournis
